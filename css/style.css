@@ -1,0 +1,59 @@
+html, body {
+  height: auto;
+  width: auto;
+  overflow: auto;
+  padding-bottom: 60px; /*prevents hidden text*/
+}
+
+#landing-background {
+  background-image: url(../images/landing-background.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 750px;
+  background-color: #4C566A;
+  resize:  both;
+}
+
+#main-background {
+  background-image: url(../images/background.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: auto;
+  background-color: #4C566A;
+  resize:  both;
+}
+
+.navbar {
+  z-index: 100;
+  overflow: hidden; /*hides text*/
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar-brand{
+  /*padding-left: 30px;*/
+  position: absolute;
+  left: 50%;
+  margin-left: -30px !important;  /* 50% of your logo width */
+  display: block;
+}
+
+.navbar-header {
+    float: left;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+.navbar-toggler {
+  margin-right: 30px;
+  display: block;
+}
+
+.trademark{
+  text-align: center;
+}
