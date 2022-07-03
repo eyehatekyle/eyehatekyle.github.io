@@ -1,4 +1,10 @@
 html, body {
+  background-color: #4C566A;
+  background: url(../images/landing-background.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 700px;
   color: #FFE0E0;
   margin: 0;
   padding-top: 35px;
@@ -27,14 +33,9 @@ a:visited{
   /*border: 1px solid #FFE0E0;*/
 }
 
+
 #landing-background {
-  background-image: url(../images/landing-background.png);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 700px;
   background-color: #4C566A;
-  /*resize: both;*/
 }
 
 #main-background {
