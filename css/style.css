@@ -1,8 +1,18 @@
 html, body {
-  height: auto;
-  width: auto;
-  overflow: auto;
-  padding-bottom: 60px; /*prevents hidden text*/
+  color: #FFE0E0;
+  margin: 0;
+}
+
+a:hover {
+  color: #FFE0E0;
+}
+
+a:link {
+  color: #FFE0E0;
+}
+
+a:visited{
+  color: #FFE0E0;
 }
 
 .footer{
@@ -11,18 +21,17 @@ html, body {
   height: 50px;
   left: 0px;
   right: 0px;
-  overflow: hidden;
-  padding: 10px;
   text-align: center;
   background-color: #3B4252;
+  /*border: 1px solid #FFE0E0;*/
 }
 
 #landing-background {
-  background-image: url(../images/test-image.png);
+  background-image: url(../images/landing-background.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 750px;
+  background-size: 700px;
   background-color: #4C566A;
   resize:  both;
 }
@@ -42,8 +51,12 @@ html, body {
   overflow: hidden; /*hides text*/
   background-color: #3B4252;
   position: fixed;
-  bottom: 0;
+  bottom: 0px;
+  height: 50px;
+  left: 0px;
+  right: 0px;
   width: 100%;
+  /*border: 1px solid #FFE0E0;*/
 }
 
 .navbar-brand{
@@ -55,17 +68,13 @@ html, body {
 }
 
 .navbar-header {
-    float: left;
-    padding: 15px;
-    text-align: center;
-    width: 100%;
+  float: left;
+  padding: 15px;
+  text-align: center;
+  width: 100%;
 }
 
 .navbar-toggler {
   margin-right: 30px;
   display: block;
-}
-
-.trademark{
-  text-align: center;
 }
