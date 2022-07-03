@@ -47,13 +47,8 @@ a:visited{
 }
 
 .navbar {
-  z-index: 100;
   overflow: hidden; /*hides text*/
   background-color: #3B4252;
-  position: fixed;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
   width: 100%;
   /*border: 1px solid #FFE0E0;*/
 }
