@@ -1,8 +1,8 @@
 html, body {
   color: #FFE0E0;
   margin: 0;
-  padding-top: 30px;
-  padding-bottom: 100px; /*Prevents Hidden Text*/
+  padding-top: 20px;
+  padding-bottom: 75px; /*Prevents Hidden Text*/
 }
 
 a:hover {
