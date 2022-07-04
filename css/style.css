@@ -1,4 +1,4 @@
-html{
+/*html{
   padding-top: 35px;
 } 
 
@@ -10,7 +10,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: 700px;
-}
+}*/
 
 a:hover {
   color: #FFE0E0;
@@ -34,12 +34,12 @@ a:visited{
   /*border: 1px solid #FFE0E0;*/
 }
 
-#main-background {
-  background-image: url(../images/background.jpg);
+#landing-background {
+  background-image: url(../images/landing-background.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: auto;
+  background-size: 700px;
   background-color: #4C566A;
   resize:  both;
 }
