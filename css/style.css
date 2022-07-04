@@ -20,7 +20,7 @@ a:visited{
   /*border: 1px solid #FFE0E0;*/
 }
 
-#landing-background {
+/*#landing-background {
   z-index: -10;
   display: block;
   background-image: url(../images/landing-background.png);
@@ -32,7 +32,7 @@ a:visited{
   -o-background-size: cover;
   background-size: 700px;
   resize:  both;
-}
+}*/
 
 .navbar {
   overflow: hidden; /*hides text*/
