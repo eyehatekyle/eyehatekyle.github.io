@@ -1,4 +1,4 @@
-alert('Warning: Test site is test.');
+// alert('Warning: Test site is test.');
 
 let myButton = document.getElementById('changeuser');
 let greetingtext = document.getElementById('greeting')
