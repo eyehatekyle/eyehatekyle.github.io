@@ -1,0 +1,67 @@
+html{
+  color: #FFE0E0;
+}
+
+a:hover {
+  color: #FFE0E0;
+}
+
+a:link {
+  color: #FFE0E0;
+}
+
+a:visited{
+  color: #FFE0E0;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+  background-color: #3B4252;
+  /*border: 1px solid #FFE0E0;*/
+}
+
+#landing-background {
+  z-index: -10;
+  display: block;
+  background-color: #4C566A;
+  background-image: url(../images/landing-background.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 700px;
+  resize:  both;
+}
+
+.navbar {
+  overflow: hidden; /*hides text*/
+  background-color: #3B4252;
+  width: 100%;
+  /*border: 1px solid #FFE0E0;*/
+}
+
+.navbar-brand{
+  /*padding-left: 30px;*/
+  position: absolute;
+  left: 50%;
+  margin-left: -30px !important;  /* 50% of your logo width */
+  display: block;
+}
+
+.navbar-header {
+  float: left;
+  padding: 15px;
+  text-align: center;
+  width: 100%;
+}
+
+.navbar-toggler {
+  margin-right: 30px;
+  display: block;
+}
