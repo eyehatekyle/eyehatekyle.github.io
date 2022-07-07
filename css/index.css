@@ -39,9 +39,8 @@ a:visited{
   resize:  both;
 }
 
-.navbar {
+.bd-navbar {
   background-color: #3B4252;
-  width: 100%;
   /*border: 1px solid #FFE0E0;*/
 }
 
