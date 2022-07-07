@@ -29,7 +29,6 @@ a:visited{
   position: absolute;
   left: 50%;
   margin-left: -20px !important;  /* 50% of your logo width */
-  display: block;
 }
 
 .footer{
