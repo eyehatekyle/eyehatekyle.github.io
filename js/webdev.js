@@ -7,6 +7,7 @@ var today = new Date();
 var hourNow = today.getHours();
 var greeting;
 
+/*
 if (hourNow < 12){
   greeting = 'Good morning, ';
 }
@@ -19,6 +20,7 @@ else if (hourNow < 24){
 else {
   greeting = "Welcome, ";
 }
+*/
 
 function setUserName() {
 	let myName = prompt('Please enter your name.');
@@ -26,7 +28,7 @@ function setUserName() {
 		setUserName();
 	} else{
 		localStorage.setItem('name', myName);
-		greetingtext.innerHTML = greeting + myName + '.';
+		greetingtext.innerHTML = myName;
 	}
 
 }
@@ -35,7 +37,7 @@ if (!localStorage.getItem('name')) {
 	setUserName();
 } else {
 	let storedName = localStorage.getItem('name');
-	greetingtext.innerHTML = greeting + storedName + '.';
+	greetingtext.innerHTML = storedName;
 }
 
 myButton.onclick = function() {
