@@ -1,7 +1,7 @@
 // alert('Warning: Test site is test.');
 
 let myButton = document.getElementById('changeuser');
-let greetingtext = document.getElementById('greeting')
+let greetingtext = document.getElementById('myName')
 
 var today = new Date();
 var hourNow = today.getHours();
