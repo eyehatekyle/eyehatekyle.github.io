@@ -1,11 +1,37 @@
-header{
+body{
+	margin: 0;
+	padding: 0;
 	background-color: #5E81AC;
 }
 
-#div-red{
-	background-color: #BF616A;
+header {
+	a: color: #FFE0E0;
+	background-color: #434c5e;
 }
 
-#div-yellow{
-	background-color: #EBCB8B;
+#div-red {
+	background-color: #bf616a;
+}
+
+#div-yellow {
+	background-color: #ebcb8b;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	text-align: center;
+	background-color: #3b4252;
+	/*border: 1px solid #FFE0E0;*/
+}
+
+.sign-up-form {
+	width: 31.25rem;
+	box-shadow: 0 0 0.188rem 0 rgba(0, 0, 0, 0.3);
+	background: #ffe0e0;
+	padding: 2.188rem;
+	margin: 3% auto;
+	text-align: center;
 }
