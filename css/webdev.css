@@ -1,3 +1,15 @@
+a:hover {
+  color: #FFE0E0;
+}
+
+a:link {
+  color: #FFE0E0;
+}
+
+a:visited{
+  color: #FFE0E0;
+}
+
 body{
 	margin: 0;
 	padding: 0;
