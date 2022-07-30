@@ -10,9 +10,9 @@ a:visited{
   color: #FFE0E0;
 }
 
-#landing-background {
+html, body {
   background-color: #4C566A;
-  background-image: url(../images/landing-background.png);
+  background-image: url(../images/eyehatekyle.png);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
